@@ -1,0 +1,26 @@
+ion:
+  name: Ion Flux Coil
+
+exhaust:
+  name: Reinforced Exhaust Port
+
+power:
+  name: Microfission Power Core
+
+armor:
+  name: Reinforced Armor Plate
+
+structure:
+  name: Titanium Alloy Structural Framework
+
+actuator:
+  name: Heavy Servo actuator
+
+plasma:
+  name: High-energy Plasma Emitter
+
+vision:
+  name: Extended-resolution Night Vision Optics
+
+warhead:
+  name: Mini-HEAT Warhead

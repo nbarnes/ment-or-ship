@@ -1,0 +1,30 @@
+<h1>Listing Parts</h1>
+
+  <% @parts.each do |part| %>
+
+    <table>
+      <tr>
+        <th>Part:</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td><%= part.name %></td>
+        <th></th>
+      </tr>
+
+      <tr>
+        <th></th>
+        <th>Used by:</th>
+      </tr>
+      <% part.items.each do |item| %>
+        <tr id="<%= item.id %>">
+          <td></td>
+          <td><%= item.name %></td>
+        </tr>
+      <% end %>
+    </table>
+    <%= link_to 'Create new part' %>
+
+  <% end %>
+
+</h1>

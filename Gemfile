@@ -7,6 +7,18 @@ gem 'rails', '3.2.15'
 
 gem 'sqlite3'
 
+group :development, :test do
+  gem 'minitest-rails-capybara'
+  gem 'pry'
+  gem 'pry-debugger'
+  gem 'faker'
+  gem 'factory_girl_rails'
+end
+
+group :test do
+  gem 'turn'
+  gem "simplecov"
+end
 
 # Gems used only for assets and not required
 # in production environments by default.

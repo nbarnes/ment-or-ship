@@ -1,0 +1,17 @@
+heavy_armor:
+  name: Heavy Armor
+
+ion_beam:
+  name: Ion Beam
+
+auto_turret:
+  name: Auto Turret
+
+jump_jets:
+  name: Personal Jumppack
+
+light_armor:
+  name: Light Armor
+
+AntiTank:
+  name: Pocket Anti-Tank Rocket

@@ -1,0 +1,59 @@
+missile_drive:
+  item: AntiTank
+  part: exhaust
+
+missile_warhead:
+  item: AntiTank
+  part: Warhead
+
+light_armor_frame:
+  item: light_armor
+  part: structure
+
+light_armor_plate:
+  item: heavy_armor
+  part: armor
+
+heavy_armor_frame:
+  item: heavy_armor
+  part: structure
+
+heavy_armor_plate:
+  item: light_armor
+  part: armor
+
+ion_beam_power:
+  item: ion_beam
+  part: power
+
+ion_beam_emitter:
+  item: ion_beam
+  part: ion
+
+ion_beam_frame:
+  item: ion_beam
+  part: structure
+
+auto_turret_frame:
+  item: auto_turret
+  part: structure
+
+auto_turret_servo:
+  item: auto_turret
+  part: actuator
+
+auto_turret_weapon:
+  item: auto_turret
+  part: ion
+
+jump_jets_exhaust:
+  item: jump_jets
+  part: exhaust
+
+jump_jets_power:
+  item: jump_jets
+  part: power
+
+jump_jumps_nozzle:
+  item: jump_jets
+  part: actuator
